@@ -193,11 +193,11 @@ footer ul li a {
 .navbar-brand {
     font-weight: bold;
     letter-spacing: 1px;
-    color: #ffffff; /* White text color for navbar brand */
+    color: #ffffff; 
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: #ffffff; /* White text color for nav links */
+    color: #ffffff; 
     transition: color 0.3s;
 }
 
