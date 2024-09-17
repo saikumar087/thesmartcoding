@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Programming Course</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="common-styles.css">
+    <style>
+        .toggle-content {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">TheSmartCoding</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Content -->
+    <div class="container my-5">
+        <section>
+            <h2>Python Programming Course</h2>
+            <p>This course covers everything from the basics to advanced topics in Python programming. By the end of this course, you'll be proficient in writing Python code and solving complex problems.</p>
+            <h3>Course Content:</h3>
+            <button class="btn btn-info mb-3" data-target="course-content">Show/Hide Course Content</button>
+            <div class="toggle-content" id="course-content">
+                <ul>
+                    <li>Introduction to Python:
+                        <ul>
+                            <li>History and Evolution of Python</li>
+                            <li>Installing Python and Setting Up Environment</li>
+                            <li>Basic Syntax and Program Structure</li>
+                            <li>Python IDEs and Editors</li>
+                        </ul>
+                    </li>
+                    <li>Data Types and Variables:
+                        <ul>
+                            <li>Numbers, Strings, Booleans</li>
+                            <li>Type Conversion and Type Casting</li>
+                            <li>Immutable and Mutable Types</li>
+                        </ul>
+                    </li>
+                    <li>Operators in Python:
+                        <ul>
+                            <li>Arithmetic, Assignment, and Comparison Operators</li>
+                            <li>Logical, Bitwise, and Identity Operators</li>
+                        </ul>
+                    </li>
+                    <li>Control Flow (If-Else, Loops):
+                        <ul>
+                            <li>If, If-Else, and Nested Conditions</li>
+                            <li>For and While Loops</li>
+                            <li>Break, Continue, and Pass Statements</li>
+                        </ul>
+                    </li>
+                    <li>Functions and Recursion:
+                        <ul>
+                            <li>Function Definitions and Arguments</li>
+                            <li>Positional and Keyword Arguments</li>
+                            <li>Recursive Functions and Base Cases</li>
+                        </ul>
+                    </li>
+                    <li>Modules and Packages:
+                        <ul>
+                            <li>Importing Modules</li>
+                            <li>Creating and Using Python Packages</li>
+                        </ul>
+                    </li>
+                    <li>File Handling:
+                        <ul>
+                            <li>Reading and Writing Files</li>
+                            <li>File Methods and Context Managers</li>
+                        </ul>
+                    </li>
+                    <li>Exception Handling:
+                        <ul>
+                            <li>Try, Except, Else, Finally Blocks</li>
+                            <li>Raising Exceptions</li>
+                        </ul>
+                    </li>
+                    <li>Object-Oriented Programming (OOP):
+                        <ul>
+                            <li>Classes and Objects</li>
+                            <li>Attributes and Methods</li>
+                            <li>Constructor and Destructor</li>
+                        </ul>
+                    </li>
+                    <li>Inheritance, Polymorphism, Encapsulation:
+                        <ul>
+                            <li>Single and Multiple Inheritance</li>
+                            <li>Overriding Methods</li>
+                            <li>Data Hiding and Name Mangling</li>
+                        </ul>
+                    </li>
+                    <li>Data Structures (Lists, Tuples, Sets, Dictionaries):
+                        <ul>
+                            <li>List Operations and Methods</li>
+                            <li>Tuples: Immutable Sequences</li>
+                            <li>Set Operations</li>
+                            <li>Dictionary Keys and Values</li>
+                        </ul>
+                    </li>
+                    <li>Comprehensions (List, Dictionary, Set):
+                        <ul>
+                            <li>List Comprehensions</li>
+                            <li>Dictionary Comprehensions</li>
+                            <li>Set Comprehensions</li>
+                        </ul>
+                    </li>
+                    <li>Iterators and Generators:
+                        <ul>
+                            <li>Creating and Using Iterators</li>
+                            <li>Yielding Values from Generators</li>
+                        </ul>
+                    </li>
+                    <li>Lambda Functions, Map, Filter, Reduce:
+                        <ul>
+                            <li>Anonymous Functions</li>
+                            <li>Using Map, Filter, and Reduce with Lambda</li>
+                        </ul>
+                    </li>
+                    <li>Decorators:
+                        <ul>
+                            <li>Function Decorators</li>
+                            <li>Class Decorators</li>
+                        </ul>
+                    </li>
+                    <li>Regular Expressions (RegEx):
+                        <ul>
+                            <li>Basic Syntax of RegEx</li>
+                            <li>Matching Patterns with `re` Module</li>
+                        </ul>
+                    </li>
+                    <li>Working with Date and Time:
+                        <ul>
+                            <li>Using `datetime` and `time` Modules</li>
+                            <li>Formatting Dates and Times</li>
+                        </ul>
+                    </li>
+                    <li>Advanced File Handling (CSV, JSON, XML):
+                        <ul>
+                            <li>Reading and Writing CSV Files</li>
+                            <li>Parsing JSON Files</li>
+                            <li>Working with XML Data</li>
+                        </ul>
+                    </li>
+                    <li>Working with Databases (SQLite, MySQL):
+                        <ul>
+                            <li>Connecting to Databases</li>
+                            <li>Executing Queries</li>
+                        </ul>
+                    </li>
+                    <li>Multithreading and Multiprocessing:
+                        <ul>
+                            <li>Creating Threads</li>
+                            <li>Using Processes for Parallelism</li>
+                        </ul>
+                    </li>
+                    <li>Introduction to Web Development (Flask/Django):
+                        <ul>
+                            <li>Setting up Flask/Django</li>
+                            <li>Building a Basic Web Application</li>
+                        </ul>
+                    </li>
+                    <li>Deploying Python Applications:
+                        <ul>
+                            <li>Packaging Python Projects</li>
+                            <li>Deploying to Web Servers</li>
+                        </ul>
+                    </li>
+                    <li>Best Practices and Code Optimization:
+                        <ul>
+                            <li>Writing Readable and Efficient Code</li>
+                            <li>Code Refactoring Techniques</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h3>Duration:</h3>
+            <p>12 Weeks</p>
+            <h3>Enrollment:</h3>
+            <p>Open - Enroll Now!</p>
+            <p><a class="nav-link" href="index.html#contact">Click Here For Contact Us For More Info</a></p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Follow us on:</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ul>
+        <p>© 2024 Coaching Center. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var toggleButtons = document.querySelectorAll('.btn-info');
+
+            toggleButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var targetId = this.getAttribute('data-target');
+                    var content = document.getElementById(targetId);
+
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'block';
+                        this.textContent = 'Hide Course Content';
+                    } else {
+                        content.style.display = 'none';
+                        this.textContent = 'Show Course Content';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
